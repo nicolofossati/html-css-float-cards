@@ -6,23 +6,27 @@
 }
 
 main{
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 
 .title h1{
     color: #E53170;
     text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
 }
 
 .description{
     text-align: center;
+    font-size: 20px;
+    margin: 10px 0 30px 0;
 }
 
 .profile{
     width: calc(100%/3 - 20px);
-    height: 100px;
-    background-color: black;
+    height: 120px;
+    background-color: #0F0E17;
     float: left;
     margin: 20px 10px;
 }
@@ -34,19 +38,30 @@ main{
 }
 
 .profile_img{
-    width: 100px;
-    height: 100px;
+    height: 120px;
     float: left;
 }
 
 .bio{
     color: white;
+    float: left;
+    padding: 10px 0 10px 15px;
 }
 
 .bio span{
     display: block;
 }
 
-.bio span:last-child{
+.bio h3{
+    font-size: 20px;
+}
+
+.profession{
+    padding: 14px 0;
+    font-size: 18px;
+}
+
+.mail{
     color: #67BFE1;
+    font-size: 18px;
 }
