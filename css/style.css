@@ -5,3 +5,48 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.title h1{
+    color: #E53170;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.profile{
+    width: calc(100%/3 - 20px);
+    height: 100px;
+    background-color: black;
+    float: left;
+    margin: 20px 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile_img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.bio{
+    color: white;
+}
+
+.bio span{
+    display: block;
+}
+
+.bio span:last-child{
+    color: #67BFE1;
+}
